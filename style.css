@@ -125,7 +125,7 @@ nav.scrolled { padding: .7rem 4rem; box-shadow: var(--shadow-sm); }
 .nav-cta {
   font-family: 'Syne', sans-serif; font-weight: 700;
   font-size: .7rem; letter-spacing: .06em; text-transform: uppercase;
-  background: var(--indigo); color: #fff;
+  background: var(--indigo); color: #ffffff;
   padding: .55rem 1.3rem; border-radius: 8px;
   text-decoration: none;
   transition: background .2s, transform .2s, box-shadow .2s;
