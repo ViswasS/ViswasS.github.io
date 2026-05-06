@@ -198,7 +198,7 @@ nav.scrolled { padding: .7rem 5rem; box-shadow: var(--shadow-sm); }
 }
 .hero h1 em {
   font-style: italic; display: block;
-  color: var(--text-hd); 
+  color: transparent;
   -webkit-text-stroke: 2px var(--navy);
 }
 
