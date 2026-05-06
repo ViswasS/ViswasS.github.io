@@ -186,7 +186,7 @@ nav.scrolled { padding: .7rem 4rem; box-shadow: var(--shadow-sm); }
 /* Outlined italic first name — indigo stroke on white = very visible */
 .hero h1 em {
   font-style: italic; display: block;
-  color: var(--text-hd);            /* fill color */
+  color: var(--indigo);            /* fill color */
   -webkit-text-stroke: 2px var(--indigo); /* outline */
 }
 
