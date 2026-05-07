@@ -135,13 +135,14 @@ nav.scrolled { padding: .7rem 5rem; box-shadow: var(--shadow-sm); }
 
 .nav-cta {
   font-family: 'Syne', sans-serif; font-weight: 700;
-  font-size: .7rem; letter-spacing: .07em; text-transform: uppercase;
-  background: var(--navy); color: #fff;
-  padding: .55rem 1.4rem; border-radius: 8px;
+  font-size: .75rem; letter-spacing: .07em; text-transform: uppercase;
+  background: var(--navy); color: #ffffff;
+  padding: .7rem 1.4rem; border-radius: 8px;
+  display: inline-flex; align-items: center; justify-content: center;
   text-decoration: none; box-shadow: var(--shadow-xs);
-  transition: background .2s, transform .2s, box-shadow .2s;
+  transition: background .2s, transform .2s, box-shadow .2s, color .02s;
 }
-.nav-cta:hover { background: var(--navy-dk); transform: translateY(-1px); box-shadow: var(--shadow-md); }
+.nav-cta:hover { background: var(--navy-dk);color: #ffffff; transform: translateY(-1px); box-shadow: var(--shadow-md); }
 
 /* ── HERO ────────────────────────────────────── */
 .hero {
