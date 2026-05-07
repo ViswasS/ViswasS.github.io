@@ -134,14 +134,12 @@ nav.scrolled { padding: .7rem 5rem; box-shadow: var(--shadow-sm); }
 .nav-links a:hover::after { width: 100%; }
 
 .nav-cta {
-  font-family: 'Syne', sans-serif; font-weight: 700;
-  font-size: .7rem; letter-spacing: .07em; text-transform: uppercase;
-  background: var(--navy); color: #ffffff !important;
-  padding: .7rem 2rem; border-radius: 8px;
-  text-decoration: none; display: inline-flex;
-  align-items: center; justify-content: center; box-shadow: var(--shadow-xs);
-  text-align: center; line-height: 1; white-space: nowrap;
-  transition: background .2s, color .2s, transform .2s, box-shadow .2s;
+  display: inline-flex; align-items: center; gap: .5rem;
+  border: 1.5px solid var(--tan-dk); color: var(--text-muted);
+  font-family: 'Syne', sans-serif; font-weight: 600;
+  font-size: .75rem; letter-spacing: .07em; text-transform: uppercase;
+  padding: .9rem 2.2rem; border-radius: 8px; text-decoration: none;
+  transition: all .2s;
 }
 .nav-cta:hover { background: var(--navy-dk); transform: translateY(-1px); box-shadow: var(--shadow-md); color: #ffffff !important; }
 
