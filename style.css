@@ -137,10 +137,10 @@ nav.scrolled { padding: .7rem 5rem; box-shadow: var(--shadow-sm); }
   font-family: 'Syne', sans-serif; font-weight: 700;
   font-size: .7rem; letter-spacing: .07em; text-transform: uppercase;
   background: var(--navy); color: #ffffff !important;
-  padding: .7rem 1.4rem; border-radius: 8px;
+  padding: .7rem 2rem; border-radius: 8px;
   text-decoration: none; display: inline-flex;
   align-items: center; justify-content: center; box-shadow: var(--shadow-xs);
-  text-align: center; line-height: 1;
+  text-align: center; line-height: 1; white-space: nowrap;
   transition: background .2s, color .2s, transform .2s, box-shadow .2s;
 }
 .nav-cta:hover { background: var(--navy-dk); transform: translateY(-1px); box-shadow: var(--shadow-md); color: #ffffff !important; }
